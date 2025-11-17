@@ -1,6 +1,8 @@
 # LED-resistance-tester
 Simple PCB for dialing in current limiting resistors for LEDs
 
+<img src="./images/board_shot.png" width=400px alt="Simple photo of board">
+
 ## Inspiration
 
 This project was broadly inspired by [this blog post on Sparkfun](https://news.sparkfun.com/5461), combined of course with the unceasing voice in my head to *design another stupid PCB*. 
@@ -8,6 +10,9 @@ This project was broadly inspired by [this blog post on Sparkfun](https://news.s
 ## Usage
 
 I set this board up to have four LED test 'stations' each on two parallel power rails. The idea is that you can easily match your brightness on, say, 5V and 24V. There's a jumper to link the two rails, too, in case you just want to test 8 different LEDs at the same voltage. There are big, ø5mm plated holes that are just the right size for grabbing with alligator clips for powering, as well as 5mm terminal blocks. 
+
+
+<img src="./images/board_using.png" width=400px alt="Photo of board in use">
 
 LED current is set with DIP switches jumping over a ~ decadal series of common resistor values, with a minimum series resistance of 220Ω and a maximum of about 41kΩ (because DIP switches are fun).
 
